@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "aiyu-women-open",
+  "main": "build/worker.js",
+  "compatibility_date": "2026-11-01",
+  "build": { "command": "node scripts/build-worker.mjs" },
+  "workers_dev": true,
+  "observability": { "enabled": false }
+}
